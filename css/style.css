@@ -80,7 +80,7 @@ blockquote{
 	}
 
 }
-@media (min-width: 992px) {	
+@media (min-width: 992px) {
 	.page-offset{
 		padding-left:240px;
 	}
@@ -109,7 +109,7 @@ blockquote{
 	  font-size: 1.25rem;
 	  font-weight: 600;
 	}
-	.card-titlepanel > div {	
+	.card-titlepanel > div {
 	  font-weight: 400;
 	}
 	.skill-rows > div > p{
@@ -118,7 +118,7 @@ blockquote{
 		margin-bottom: 8px !important;
 	}
 }
-@media (min-width: 600px) {	
+@media (min-width: 600px) {
 	.card-titlepanel {
 	  border-bottom: 1px solid rgba(160,160,160,0.2);
 	  padding: 10 10 10 25;
@@ -137,7 +137,7 @@ blockquote{
 		height: 70px;
 	}
 }
-@media (min-width: 450px) {	
+@media (min-width: 450px) {
 	.skill-rows > div > img{
 		width: 100px;
 		height: 100px;
@@ -152,7 +152,7 @@ blockquote{
 		padding-right:5px;
 	}
 }
-@media (min-width: 400px) {	
+@media (min-width: 400px) {
 	.card-titlepanel > div{
 		font-size: 1rem;
 		float: right !important;
@@ -173,7 +173,7 @@ blockquote{
 		font-weight:200;
 	}
 }
-@media (min-width: 330px) {	
+@media (min-width: 330px) {
 	#firstname-mainpage{
 		font-size:3rem;
 		font-weight:600;
@@ -182,4 +182,28 @@ blockquote{
 		font-size:3rem;
 		font-weight:200;
 	}
+}
+@media (min-width: 600px) {
+  .myImage{
+    max-width:200px;
+    display: inline-block;
+    margin-top:30px;
+  }
+	.myName{
+		line-height: 40px;
+		padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .myImage{
+    max-width:100px;
+    display: inline-block;
+  }
+  .myName{
+		line-height: 40px;
+		padding-top: 15px;
+		padding-bottom: 10px;
+    text-align: center;
+  }
 }
